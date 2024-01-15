@@ -6,7 +6,7 @@
         <main class="main">main
        
       
-            <form action="question2.php" onsubmit="return validateQuestion();">
+            <form action="question9.php" onsubmit="return validateQuestion();">
             <p>Wie geht es dir heute?</p>
             <input type="submit" value="weiter">
             </form>
