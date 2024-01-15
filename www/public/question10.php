@@ -6,11 +6,11 @@
         <main class="main">
        
       
-            <form action="question7.php" onsubmit="return validateQuestion()" method="post">
+            <form action="result.php" onsubmit="return validateQuestion();" method="post">
             <p>An einem typischen Tag: Wie viele deiner
-               Malzeiten oder Snacks enthalten
-               Kohlenhydrate?</p>
-               <input type="hidden" name="questenIndex" value="5">
+               Malzeiten kommen aus der Mikrowelle
+               oder sind schon fertig zubereitet?</p>
+               <input type="hidden" name="questenIndex" value="9">
             <input type="number" name="" id="">
             <input type="submit" value="weiter">
             </form>
