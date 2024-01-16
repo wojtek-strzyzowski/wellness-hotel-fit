@@ -5,11 +5,13 @@
 
         <main class="main">main
        
-      
+<div class="questions-container" >      
             <form action="question2.php" onsubmit="return validateQuestion();">
             <p>Wie geht es dir heute?</p>
-            <input type="submit" value="weiter">
+            <input type="submit" value="home">
             </form>
+
+</div>            
         </main>
         
 

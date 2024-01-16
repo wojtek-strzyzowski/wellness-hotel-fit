@@ -5,7 +5,7 @@
 
         <main class="main">
        
-      
+ <div class="questions-container" >   
             <form action="result.php" onsubmit="return validateQuestion();" method="post">
             <p>An einem typischen Tag: Wie viele deiner
                Malzeiten kommen aus der Mikrowelle
@@ -14,6 +14,8 @@
             <input type="number" name="" id="">
             <input type="submit" value="weiter">
             </form>
+ </div>
+
         </main>
         
 

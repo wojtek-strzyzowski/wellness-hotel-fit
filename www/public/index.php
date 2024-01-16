@@ -8,7 +8,13 @@
         <main class="main">
 
         <h1>Willkommen im Hotel FIT</h1>
-        <p>Um sie individuel betreuen und beraten zu können, bitten wir Sie noch unseren Fragebogen auszufüllen.</p>
+        <div class="index-begruessung">
+        <p>Unser Wellnesshotel mit Therme
+            Wasserwelt des Hotels FIT
+
+            Besuchen Sie das Hotel FIT in  Zürich und freuen Sie sich auf eine Auszeit zum Wohlfühlen in unserem Wellnesshotel mit Therme. Hier erfahren Sie den Inbegriff für Ruhe und Entspannung!  Ihr Wohlbefinden steht an erster Stelle . 
+
+            Um uns auf Ihre Bedürfnisse und Ihr Wohlbefinden einzustellen, bitten wir Sie unsern Gesundheitsfragebogen auszufüllen.</p>
 
         <div>
             <h2>Wie gesund bist du körperlich?</h2>
@@ -17,6 +23,7 @@
         <form action="question2.php" onsubmit="return validateQuestion();" method="post">
             <p class="instruction">Schätze deine Gesundheit mit dem Slider ein.</p>
 
+            
             <div class="antworten-frage-1">
                 <div class="frage-1-antwort-1">
                     <p>Überhaupt nicht</p>
@@ -35,6 +42,7 @@
             <p class="spacer"></p>
             <button type="submit" class="btn btn-primary">Weiter</button>
             <p class="spacer"></p>
+           
         </form>
         </main>
 

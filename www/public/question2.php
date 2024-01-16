@@ -8,7 +8,7 @@
         <h1>Willkommen im Hotel FIT</h1>
         <p>Um sie individuel betreuen und beraten zu können, bitten wir Sie noch unseren Fragebogen auszufüllen.</p>
 
-
+    <div class="questions-container" > 
         <form action="question3.php" onsubmit="return validateQuestion();" method="post">
         <p>Nehmen Sie Nahrungsergänzungsmittel?</p>
         <input type="radio" id="html" name="fav_language" value="HTML">
@@ -18,11 +18,12 @@
         
             <input type="hidden" name="questionIndex" value="1">
             <p class="spacer"></p>
-        </form>
+        
 
        
             <input type="submit" value="weiter">
         </form>
+    </div>
         
     </main>
         

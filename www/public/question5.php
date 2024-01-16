@@ -5,7 +5,7 @@
 
         <main class="main">main
        
-      
+<div class="questions-container" >      
         <form action="question6.php" onsubmit="return validateQuestion();" method="post">
             <p class="instruction">Hast du das Gefühl, zu wenig, genügend
                 oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</p>
@@ -32,7 +32,7 @@
             <button type="submit" class="btn btn-primary">Weiter</button>
             <p class="spacer"></p>
         </form>
-        
+</div>        
         
         </main>
         

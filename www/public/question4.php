@@ -5,7 +5,7 @@
 
         <main class="main">main
        
-      
+<div class="questions-container" > 
         <form action="question5.php" onsubmit="return validateQuestion();" method="post">
         <p>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</p>
 
@@ -44,6 +44,8 @@
 
             <input type="submit" value="weiter">
         </form>
+</div>
+
         </main>
         
 
