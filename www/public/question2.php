@@ -24,6 +24,7 @@
        
             <input type="submit" value="weiter">
         </form>
+        <div id="validation-warning"></div>
     </div>
         
     </main>
