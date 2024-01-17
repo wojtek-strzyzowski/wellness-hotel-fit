@@ -1,9 +1,10 @@
 <?php include './src/templates/header.php'; ?>
 
-
+       
         <hero class="hero">
         <img id="q7-img"  width="100%" height="100%"  src="/src/img/Frage 7.png">
         </hero>
+        
 
         <main class="main">
         <p id="error-message"></p>

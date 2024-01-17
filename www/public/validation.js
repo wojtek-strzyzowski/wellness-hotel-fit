@@ -13,6 +13,7 @@ function validateRange(rangeSlider) {
 function setWarning (text) {
     let warningElement = document.getElementById("validation-warning");
     warningElement.innerText = text;
+    warningElement.style.color = ('red');
 }
 
 // function validateQuestions(validateInput){
@@ -22,9 +23,6 @@ function setWarning (text) {
         // }
 // }
 
-function validateCheckbox (checkbox) {
-
-}
 
 
 // Checkbox Validierung
