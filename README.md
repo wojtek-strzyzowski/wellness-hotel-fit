@@ -12,4 +12,23 @@ Andreas Schollenberger
 Wojtek Strzyowski
 
 
+## Erstellt von Andreas
+
+1. CSS Grid
+2. footer
+3. haeder
+4. Logo
+5. Question Seiten 6 bis 10
+6. data-collector
+7. Figma
+
+
+## Erstellt von Wojtek
+
+1. Git Master
+2. Figma
+3. Main grundlagen erstellt
+4. Question Seiten index bis 5
+
+
 

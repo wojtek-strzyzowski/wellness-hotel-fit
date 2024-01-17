@@ -18,7 +18,7 @@
         
             <input type="hidden" name="questionIndex" value="1">
             <p class="spacer"></p>
-        </form>
+        
 
        
             <input type="submit" value="weiter">

@@ -17,5 +17,6 @@
 </footer>
 
 </div>
+<script src="/www/src/validation.js"></script>
 </body>
 </html>

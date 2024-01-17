@@ -6,7 +6,7 @@
         <main class="main">
        
       
-            <form action="result.php" onsubmit="return validateQuestion();" method="post">
+            <form action="question10.php" onsubmit="return validateQuestion();" method="post">
             <p>An einem typischen Tag: Wie viele deiner
                Malzeiten oder Snacks enthalten Früchte?</p>
                <input type="hidden" name="questenIndex" value="8">

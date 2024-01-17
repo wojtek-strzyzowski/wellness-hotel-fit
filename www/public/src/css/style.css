@@ -1,12 +1,14 @@
+/*erstellt von Andreas*/
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* erstellt von Andreas*/
 .grid-container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 20% 60% 20%;
@@ -16,17 +18,21 @@ body{
   "footer footer";
 }
 
+/*erstellt von Andreas*/
 header {
   width: 100%;
   height: 100%;
   grid-area: header;
   background: red;
 }
+
+/*erstellt von Andreas*/
 .haeder-img{
   width: 213px;
   height: 178px;
 }
 
+/*erstellt von Andreas*/
 .header-img-container{
   margin-top: 10px;
 }
@@ -39,8 +45,8 @@ header {
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   grid-area: main;
   background: blue;
 }
@@ -50,20 +56,22 @@ main {
   flex-direction: row;
   }
 
-
+/*erstellt von Andreas*/
 footer {
   display: flex;
-  gap: 900px;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
   grid-area: footer;
   background: yellow;
 }
 
+/*erstellt von Andreas*/
 .footer-img{
   margin-top: 100px;
 }
 
+/*erstellt von Andreas*/
 .footer-adresse{
   margin-left: 50px;
 }
