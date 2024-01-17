@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
 body{
   margin: 0;
   padding: 0;
@@ -20,7 +23,7 @@ header {
   width: 100%;
   height: 100%;
   grid-area: header;
-  background: red;
+  background: linear-gradient(0deg, rgba(110,206,233,1) 33%, rgba(0,98,237,1) 64%, rgba(8,3,251,1) 100%);
 }
 .haeder-img{
   width: 213px;
@@ -45,20 +48,92 @@ header {
   align-items: center;
 }
 
+.index-begruessung p {
+  width: 100%;
+  font-size: 18px;
+}
+
+.warning {
+  min-height: 30px;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Kanit', sans-serif;
+}
+
+p {
+  width: auto;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
+}
+
+label {
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+}
+
+/* Button */
+input, button {
+  background-color: black;
+  color: rgb(18, 195, 223);
+  box-shadow: 0 8px 10px 0 rgb(246, 238, 8), 0 3px 3px 0 rgba(255, 221, 3, 0.10);
+  border-radius: 12px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  }
+
+  button {
+    margin-bottom: -15px;
+  }
+
 .antworten-frage-1 {
   display: flex;
-  gap: 150px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  /* gap: 120px; */
+}
+
+.frage-1-antwort-1 {
+  padding-left: 8%;
+}
+
+.frage-1-antwort-2 {
+  padding-left: 30%;
+}
+
+.frage-1-antwort-1, p {
+    display: flex;
+    width: max-content;
 }
 
 .form-range {
   width: 100%;
 }
 
+.slider1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  margin: 0 20px 0 20px;
+}
+
+#slider1 {
+ 
+  width: 60%;
+}
+
 main {
+
+  color: rgb(18, 195, 223);
   width: 100%;
   height: 100%;
   grid-area: main;
-  background: blue;
+  background: rgb(43, 39, 39);
 }
 
 .antworten-frage-1 {
@@ -71,6 +146,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 footer {
@@ -79,7 +155,7 @@ footer {
   width: 100%;
   height: 100%;
   grid-area: footer;
-  background: yellow;
+  background: linear-gradient(180deg, rgba(110,206,233,1) 33%, rgba(0,98,237,1) 64%, rgba(8,3,251,1) 100%);
 }
 
 .footer-img{
@@ -89,3 +165,14 @@ footer {
 .footer-adresse{
   margin-left: 50px;
 }
+
+.footer-p {
+  font-size: 20px;
+}
+
+/*Bilder*/
+
+#q3-img {
+  background: linear-gradient(180deg, rgba(110,206,233,1) 33%, rgba(0,98,237,1) 64%, rgba(8,3,251,1) 100%);
+}
+

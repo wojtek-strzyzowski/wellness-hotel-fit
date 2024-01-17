@@ -1,14 +1,16 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">hero</hero>
+        <hero class="hero">
+        <img id="q5-img"  width="100%" height="100%"  src="/src/img/Frage 5.png">
+        </hero>
 
-        <main class="main">main
+        <main class="main">
        
 <div class="questions-container" >      
-        <form action="question6.php" onsubmit="return validateQuestion();" method="post">
-            <p class="instruction">Hast du das Gefühl, zu wenig, genügend
-                oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</p>
+<form action="question6.php" onsubmit="return validateRange('rangeSlider');" method="post">            
+            <h3 class="instruction">Hast du das Gefühl, zu wenig, genügend
+                oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?</h3>
 
             <div class="antworten-frage-1">
                 <div class="frage-1-antwort-1">
@@ -26,8 +28,9 @@
 
         
             <input type="range" class="form-range" 
-             min="0" max="5" step="1" name="range-slider" id="customRange3">
-            <input type="hidden" name="questionIndex" value="4">
+             min="0" max="10" step="1" name="range-slider" id="rangeSlider" value="0">
+             <p id="validation-warning" class="warning"></p>             
+             <input type="hidden" name="questionIndex" value="4">
             <p class="spacer"></p>
             <button type="submit" class="btn btn-primary">Weiter</button>
             <p class="spacer"></p>

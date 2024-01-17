@@ -1,10 +1,10 @@
 <footer class="footer">
     <div class="footer-adresse">
         <div>
-            <p>HOTEL FIT</p>
-            <p>Räffelstrasse 12</p>
-            <p>8045 Zürich</p>
-            <p>Tel: +41 (0)44 123 45 67</p>
+            <p class="footer-p"> HOTEL FIT<br>
+            Räffelstrasse 12<br>
+            8045 Zürich<br>
+            Tel: +41 (0)44 123 45 67</p>
         </div>
     </div>
     <div class="footer-img">
@@ -17,6 +17,6 @@
 </footer>
 
 </div>
-<script src="/wwww/src/validation.js"> </script>
+<script src="/validation.js"> </script>
 </body>
 </html>

@@ -1,19 +1,20 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">hero</hero>
+        <hero class="hero">
+            <img id="q2-img" src="/src/img/Kohlenhydrate Frage 2.png" width="100%" height="100%">
+        </hero>
 
         <main class="main">
 
-        <h1>Willkommen im Hotel FIT</h1>
-        <p>Um sie individuel betreuen und beraten zu können, bitten wir Sie noch unseren Fragebogen auszufüllen.</p>
 
     <div class="questions-container" > 
-        <form action="question3.php" onsubmit="return validateQuestion();" method="post">
-        <p>Nehmen Sie Nahrungsergänzungsmittel?</p>
-        <input type="radio" id="html" name="fav_language" value="HTML">
+    <div id="validation-warning"></div>
+        <form action="question3.php" onsubmit="return validateRadio();" method="post">
+        <h3>Nehmen Sie Nahrungsergänzungsmittel?</h3>
+        <input type="radio" id="check-radio" name="check-radio" value="ja">
         <label for="html">Ja</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
+        <input type="radio" id="check-radio" name="check-radio" value="nein">
         <label for="css">Nein</label><br>
         
             <input type="hidden" name="questionIndex" value="1">

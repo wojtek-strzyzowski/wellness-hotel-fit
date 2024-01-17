@@ -1,13 +1,16 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">hero</hero>
+        <hero class="hero">
+        <img id="q4-img"  width="100%" height="100%"  src="/src/img/Frage 4.png">    
+        </hero>
 
-        <main class="main">main
+        <main class="main">
        
 <div class="questions-container" > 
-        <form action="question5.php" onsubmit="return validateQuestion();" method="post">
-        <p>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</p>
+<div id="validation-warning"></div>
+        <form action="question5.php" onsubmit="return validateCheckbox();" method="post" id="checkbox">
+        <h3>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
 
     <input type="checkbox" id="nix" name="nix" value="nix">
     <label for="vehicle1"> Keine körperlichen Aktivitäten</label><br>

@@ -1,17 +1,19 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero"></hero>
+        <hero class="hero">
+        <img id="q8-img"  width="100%" height="100%"  src="/src/img/Frage 8.png">
+        </hero>
 
         <main class="main">
-       
+        <p id="error-message"></p>
 <div class="questions-container" >     
-            <form action="question9.php" onsubmit="return validateQuestion();" method="post">
-            <p>An einem typischen Tag: Wie viele deiner
+            <form action="question9.php" onsubmit="return validateInput();" method="post" id="input-frage">
+            <h3>An einem typischen Tag: Wie viele deiner
                Malzeiten oder Snacks enthalten
-               Gemüse?</p>
+               Gemüse?</h3>
                <input type="hidden" name="questenIndex" value="7">
-            <input type="number" name="" id="">
+            <input type="number" name="check-input" id="check-input">
             <input type="submit" value="weiter">
             </form>
 </div>
