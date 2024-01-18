@@ -14,7 +14,8 @@ $totalPoints = 0;
 // // DEVONLY
 // prettyPrint($_SESSION);
 
-foreach (QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer Frage.
+
+foreach(QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer Frage.
     // Hole die Benutzereingaben aus der Session.
     $questionKey = $data["id"];
 

@@ -9,7 +9,7 @@
 
 if (isset($_POST["questionIndex"])){
 
-    $lastQuestionID = "question" . $_POST["questionIndex"];
+    $lastQuestionID = "question-" . $_POST["questionIndex"];
 //<input type="hidden" name="questenIndex" value="0">
     $_SESSION[$lastQuestionID] = $_POST;
 }
