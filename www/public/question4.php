@@ -1,9 +1,9 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">
-        <img id="q4-img"  width="100%" height="100%"  src="/src/img/Frage 4.png">    
-        </hero>
+        <div class="hero">
+                <img id="q4-img"  width="100%" height="100%"  src="/src/img/Frage 4.png">    
+        </div>
 
         <main class="main">
        
@@ -12,7 +12,7 @@
         <form action="question5.php" onsubmit="return validateCheckbox();" method="post" id="checkbox">
         <h3>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
 
-    <input type="checkbox" id="nix" name="chbox-1" value="nix">
+    <input type="checkbox" id="chbox" name="chbox-1" value="nix">
     <label for="nix"> Keine körperlichen Aktivitäten</label><br>
     <input type="checkbox" id="gewichte" name="chbox-2" value="gewichte">
     <label for="Gewichte heben"> Gewichte heben</label><br>

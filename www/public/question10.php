@@ -8,7 +8,7 @@
         <main class="main">
         <p id="error-message" class="warning"></p>      
  <div class="questions-container" >   
-            <form action="result.php" onsubmit="return validateInput();" method="post" id="input-frage">
+            <form action="result.php" onsubmit="return validateInput('questionIndex');" method="post" id="input-frage">
             <h3>An einem typischen Tag: Wie viele deiner
                Malzeiten kommen aus der Mikrowelle
                oder sind schon fertig zubereitet?</h3>

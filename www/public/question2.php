@@ -1,9 +1,9 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">
+        <div class="hero">
             <img id="q2-img" src="/src/img/Kohlenhydrate Frage 2.png" width="100%" height="100%">
-        </hero>
+        </div>
 
         <main class="main">
 

@@ -16,14 +16,6 @@ function setWarning (text) {
     warningElement.style.color = ('red');
 }
 
-// function validateQuestions(validateInput){
-//     // event.preventDefault()
-//      if (validateRange(validateInput)){
-        // wenn richtig, dann form submit
-        // }
-// }
-
-
 
 // Checkbox Validierung
 
@@ -86,8 +78,8 @@ let x = document.getElementById('check-input').value;
 let errorMessageElement = document.getElementById('error-message');
 //Wenn die Zahl kleiner als 1 oder gar keine Zahl kommt false!!
 let text;
-if (x == "" || x<0) {
-    errorMessageElement.innerHTML = 'Bitte geben Sie eine Zahl größer oder gleich 1 ein';
+if (x == "" || x < 0 || x > 5) {
+    errorMessageElement.innerHTML = 'Bitte geben Sie eine Zahl von 0-5 ein';
     return false;
 }
  else {

@@ -1,9 +1,9 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">
-        <img id="q5-img"  width="100%" height="100%"  src="/src/img/Frage 5.png">
-        </hero>
+        <div class="hero">
+            <img id="q5-img"  width="100%" height="100%"  src="/src/img/Frage 5.png">
+        </div>
 
         <main class="main">
        

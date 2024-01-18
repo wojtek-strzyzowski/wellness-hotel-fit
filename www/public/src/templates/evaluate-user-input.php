@@ -21,9 +21,7 @@ foreach(QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer F
 
     if (isset($_SESSION[$questionKey])) {
         $userPost = $_SESSION[$questionKey];
-    } else {
-        echo "DEBUG: \$userPost TEST TEST TEST questionKey=$questionKey<br>";
-    }
+    } 
 
     // Je nach Fragetyp: Bestimme den vom Benutzer gewählten Antwort-Wert.
     $value = 0;
@@ -43,23 +41,56 @@ foreach(QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer F
             break;
 
         case "number": // ---------------------------------------
-            $value = $userPost["questionIndex"];
+            $value = $userPost["check-input"];
             break;
 
     }
 
     // Berechne die Punkte aus dem Antwort-Wert $value.
     $points = pointsInRange($data, $value);
-
+    
     // Addiere die Punkte zum Punktetotal.
     // Damit lässt sich ein Maximum von 33 Punkten erreichen.
     $totalPoints = $totalPoints + $points; // dasselbe wie: $totalPoints += $points;
 
     // DEVONLY
-    echo "<p>$questionKey: points = $points (\$value=$value)</p>";
+    //echo "<p>$questionKey: points = $points (\$value=$value)</p>";
 }
 
+function ausgabePunkte($totalPoints) {
+    if ($totalPoints<11){
+        echo "Sie haben " .$totalPoints . " Punkte erreicht. Sie sollten mehr Sport machen";
+    }elseif ($totalPoints<22) {
+    echo "Sie haben " .$totalPoints . " Punkte erreicht. Sie sind gesund aber aufbaufähig";
+    }
+    else { 
+        echo "Sie haben " .$totalPoints . " Punkte erreicht. Sie scheinen gesund zu leben";
+    }
+}
+
+ausgabePunkte($totalPoints);
+
+
+
 // Bestimme die Anzahl der gewählten Checkboxen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function countSelectedCheckboxes($userPost) {
     $needle = "chbox-";
     $counter = 0;
@@ -69,6 +100,7 @@ function countSelectedCheckboxes($userPost) {
     }
 
     return $counter;
+
 }
 
 // Berechne die Punkte aus gegebenem Wert und vorbestimmten Wertebereich. 
@@ -79,7 +111,7 @@ function pointsInRange($data, $value) {
     if ($healthyRange[0] <= $value && $value <= $healthyRange[1]) {
         return $healthyPoints;
     }
-    else return 0;
+    else{ return 0;}
 }
 
 ?>
