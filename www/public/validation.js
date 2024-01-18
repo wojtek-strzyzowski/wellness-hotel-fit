@@ -80,6 +80,7 @@ let errorMessageElement = document.getElementById('error-message');
 let text;
 if (x == "" || x < 0 || x > 5) {
     errorMessageElement.innerHTML = 'Bitte geben Sie eine Zahl von 0-5 ein';
+    errorMessageElement.style.color = ('red');
     return false;
 }
  else {

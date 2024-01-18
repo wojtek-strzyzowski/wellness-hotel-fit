@@ -7,12 +7,29 @@
         
         "main main";   
     }
+
+    .resultat {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
     html{
         background-color: rgb(43, 39, 39);  
         object-fit: fill;
-    
+    }
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
 }
-}
+
+
 @media screen and (min-width: 381px) and (max-width: 667px){ 
     .grid-container {
         /* width: 100vw; */
@@ -29,5 +46,19 @@
         object-fit: fill;
     }
 
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
     
+    .resultat {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
