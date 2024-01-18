@@ -12,31 +12,31 @@
         <form action="question5.php" onsubmit="return validateCheckbox();" method="post" id="checkbox">
         <h3>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
 
-    <input type="checkbox" id="nix" name="nix" value="nix">
+    <input type="checkbox" id="nix" name="chbox-1" value="nix">
     <label for="nix"> Keine körperlichen Aktivitäten</label><br>
-    <input type="checkbox" id="gewichte" name="gewichte" value="gewichte">
+    <input type="checkbox" id="gewichte" name="chbox-2" value="gewichte">
     <label for="Gewichte heben"> Gewichte heben</label><br>
-    <input type="checkbox" id="gehen" name="gehen" value="gehen">
+    <input type="checkbox" id="gehen" name="chbox-3" value="gehen">
     <label for="gehen"> Gehen </label><br><br>
 
-    <input type="checkbox" id="wandern" name="wandern" value="wandern">
+    <input type="checkbox" id="wandern" name="chbox-4" value="wandern">
     <label for="wandern"> Wandern</label><br>
-    <input type="checkbox" id="joggen" name="joggen" value="joggen">
+    <input type="checkbox" id="joggen" name="chbox-5" value="joggen">
     <label for="joggen"> Joggen</label><br>
-    <input type="checkbox" id="rennen" name="rennnen" value="rennen">
+    <input type="checkbox" id="rennen" name="chbox-6" value="rennen">
     <label for="rennen"> Rennen </label><br><br>
     
  
 
-    <input type="checkbox" id="schwimmen" name="schwimmen" value="schwimmen">
+    <input type="checkbox" id="schwimmen" name="chbox-7" value="schwimmen">
     <label for="schwimmen"> Schwimmen</label><br>
-    <input type="checkbox" id="tanzen" name="tanzen" value="tanzen">
+    <input type="checkbox" id="tanzen" name="chbox-8" value="tanzen">
     <label for="tanzen"> Tanzen </label><br>
-    <input type="checkbox" id="aerobic-pilates" name="aerobic-pilates" value="aerobic-pilates">
+    <input type="checkbox" id="aerobic-pilates" name="chbox-9" value="aerobic-pilates">
     <label for="arobic-pilates"> Aerobics/Pilates / </label><br>
-    <input type="checkbox" id="Team-Sport" name="Team-Sport" value="Team-Sport">
+    <input type="checkbox" id="Team-Sport" name="chbox-10" value="Team-Sport">
     <label for="team-sport"> Team Sport</label><br>
-    <input type="checkbox" id="Andere" name="Andere" value="Andere">
+    <input type="checkbox" id="Andere" name="chbox-11" value="Andere">
     <label for="andere"> Andere </label><br>
 
         

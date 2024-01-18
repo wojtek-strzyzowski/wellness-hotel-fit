@@ -3,7 +3,8 @@
 
         <hero class="hero">hero</hero>
 
-        <main class="main">main
+        <main class="main">
+                <?php include './src/templates/evaluate-user-input.php';?>
        
 <div class="questions-container" >      
             <form action="index.php" onsubmit="return validateQuestion();">

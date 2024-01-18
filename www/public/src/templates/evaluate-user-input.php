@@ -11,8 +11,8 @@
 include "punkte.php";
 $totalPoints = 0;
 
-// DEVONLY
-prettyPrint($_SESSION);
+// // DEVONLY
+// prettyPrint($_SESSION);
 
 foreach (QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer Frage.
     // Hole die Benutzereingaben aus der Session.
@@ -20,6 +20,8 @@ foreach (QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer 
 
     if (isset($_SESSION[$questionKey])) {
         $userPost = $_SESSION[$questionKey];
+    } else {
+        echo "DEBUG: \$userPost TEST TEST TEST questionKey=$questionKey<br>";
     }
 
     // Je nach Fragetyp: Bestimme den vom Benutzer gewählten Antwort-Wert.
@@ -31,7 +33,7 @@ foreach (QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer 
             break;
     
         case "radio": // ----------------------------------------
-            if ($userPost["single-choice"] === $data["healthy-value"]) $value = 1;
+            if ($userPost["check-radio"] === $data["healthy-value"]) $value = 1;
             else $value = 0;
             break;
 
@@ -40,7 +42,7 @@ foreach (QUESTIONS as $i => $data) { // In $data kommen die Originaldaten einer 
             break;
 
         case "number": // ---------------------------------------
-            $value = $userPost["times-per-day"];
+            $value = $userPost["questionIndex"];
             break;
 
     }
