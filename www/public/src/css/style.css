@@ -94,6 +94,7 @@ input, button {
   height: 100%;
 }
 
+
 .frage-1-antwort-1 {
   padding-left: 8%;
 }
@@ -174,6 +175,11 @@ footer {
 #q3-img {
   background: linear-gradient(180deg, rgba(110,206,233,1) 33%, rgba(0,98,237,1) 64%, rgba(8,3,251,1) 100%);
 }
+
+.home-button {
+  padding-top: 200px;
+}
+
 .resultat {
   font-size: 40px;
   text-align: center;
@@ -183,3 +189,4 @@ footer {
 .home-button {
   padding-top: 200px;
 }
+
