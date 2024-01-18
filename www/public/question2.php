@@ -9,7 +9,7 @@
 
 
     <div class="questions-container" > 
-    <div id="validation-warning"></div>
+    <div id="validation-warning" class="warning"></div>
         <form action="question3.php" onsubmit="return validateRadio();" method="post">
         <h3>Nehmen Sie Nahrungsergänzungsmittel?</h3>
         <input type="radio" id="check-radio" name="check-radio" value="ja">

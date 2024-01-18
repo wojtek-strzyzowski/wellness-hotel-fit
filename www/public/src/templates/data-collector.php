@@ -1,11 +1,11 @@
 <?php
-session_start();
-
-//wenn auf der Index seite Stehst lösche mir den Array
-if (str_contains($_SERVER["SCRIPT_NAME"], "index.php")){
-    session_destroy();
+ if (session_status() === PHP_SESSION_NONE) {
     session_start();
-}
+  }
+
+
+
+//print_r(str_contains($_SERVER["SCRIPT_NAME"], "index.php"));
 
 if (isset($_POST["questionIndex"])){
 

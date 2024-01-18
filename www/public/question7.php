@@ -9,12 +9,12 @@
         
 
         <main class="main">
-        <p id="error-message"></p>
+        <p id="error-message" class="warning"></p>
 <div class="questions-container" >      
             <form action="question8.php" onsubmit="return validateInput();" method="post" id="input-frage">
             <h3>An einem typischen Tag: Wie viele deiner
                Malzeiten oder Snacks enthalten Protein?</h3>
-               <input type="hidden" name="questenIndex" value="6">
+               <input type="hidden" name="questionIndex" value="6">
             <input type="number" name="check-input" id="check-input">
             <input type="submit" value="weiter">
             </form>

@@ -11,8 +11,12 @@
             <input type="submit" value="home">
             </form>
 
+            
 </div>            
         </main>
         
 
 <?php include './src/templates/footer.php'; ?>
+
+
+<?php session_destroy(); ?>

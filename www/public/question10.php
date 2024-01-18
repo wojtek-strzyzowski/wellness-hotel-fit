@@ -6,13 +6,13 @@
         </hero>
 
         <main class="main">
-        <p id="error-message"></p>      
+        <p id="error-message" class="warning"></p>      
  <div class="questions-container" >   
             <form action="result.php" onsubmit="return validateInput();" method="post" id="input-frage">
             <h3>An einem typischen Tag: Wie viele deiner
                Malzeiten kommen aus der Mikrowelle
                oder sind schon fertig zubereitet?</h3>
-               <input type="hidden" name="questenIndex" value="9">
+               <input type="hidden" name="questionIndex" value="9">
             <input type="number" name="check-input" id="check-input">
             <input type="submit" value="weiter">
             </form>

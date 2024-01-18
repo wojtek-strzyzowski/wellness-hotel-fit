@@ -8,7 +8,7 @@
         <main class="main">
        
 <div class="questions-container" > 
-<div id="validation-warning"></div>
+<div id="validation-warning" class="warning"S></div>
         <form action="question5.php" onsubmit="return validateCheckbox();" method="post" id="checkbox">
         <h3>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
 
