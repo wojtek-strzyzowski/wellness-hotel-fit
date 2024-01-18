@@ -1,9 +1,9 @@
 <?php include './src/templates/header.php'; ?>
 
 
-        <hero class="hero">
+        <div class="hero">
             <img id="hero-index-img"  width="100%" height="100%"  src="/src/img/wellnesshotel-bayern.jpg">
-        </hero>
+        </div>
 
         <main class="main">
     <div class="container-text">

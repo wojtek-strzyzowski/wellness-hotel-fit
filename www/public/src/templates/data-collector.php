@@ -14,5 +14,5 @@ if (isset($_POST["questionIndex"])){
     $_SESSION[$lastQuestionID] = $_POST;
 }
 
-print_r($_SESSION);
-?>
+// print_r($_SESSION);
+
